@@ -1,0 +1,40 @@
+.only-print{
+    display: none;
+}
+
+@media print{
+    .hher{
+        margin-top: 30px;
+    }
+
+    .no-print{
+        display: none;
+    }
+
+    .only-print{
+        display: block;
+    }
+
+    .dataTables_length{
+        display: none;
+        background-color: red;
+    }
+
+    .pagination{
+        display: none;
+    }
+
+    .dataTables_paginate {
+        display: none;
+    }
+
+    .dataTables_info{
+        display: none;
+    }
+
+    .dataTables_filter{
+        display: none;
+    }
+
+ 
+}
